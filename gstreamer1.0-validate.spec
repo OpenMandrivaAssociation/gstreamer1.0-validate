@@ -11,23 +11,19 @@
 Name:		gstreamer1.0-validate
 Summary:	Suite of tools to run GStreamer1.0 integration tests
 Version:	1.16.0
-Release:	%mkrel 1
+Release:	1
 License:	LGPLv2+
 Group:		Video/Utilities
 Url:		https://gstreamer.freedesktop.org/
 Source0:	https://gstreamer.freedesktop.org/src/gst-validate/gst-validate-%{version}.tar.xz
 BuildRequires:	gettext-devel
-BuildRequires:	python3
+BuildRequires:	python
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gstreamer-1.0)
 BuildRequires:	pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(json-glib-1.0)
-#Optional BRs
-%ifarch %{valgrind_arches}
-BuildRequires:	pkgconfig(valgrind)
-%endif
 BuildRequires:	pkgconfig(libunwind)
 BuildRequires:	pkgconfig(libdw)
 Requires:	%{name}-scenarios >= %{version}-%{release}
