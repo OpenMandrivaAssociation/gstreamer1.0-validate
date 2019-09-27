@@ -10,7 +10,7 @@
 
 Name:		gstreamer1.0-validate
 Summary:	Suite of tools to run GStreamer1.0 integration tests
-Version:	1.16.0
+Version:	1.16.1
 Release:	1
 License:	LGPLv2+
 Group:		Video/Utilities
