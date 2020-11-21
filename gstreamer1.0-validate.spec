@@ -10,8 +10,8 @@
 
 Name:		gstreamer1.0-validate
 Summary:	Suite of tools to run GStreamer1.0 integration tests
-Version:	1.16.2
-Release:	2
+Version:	1.16.3
+Release:	1
 License:	LGPLv2+
 Group:		Video/Utilities
 Url:		https://gstreamer.freedesktop.org/
